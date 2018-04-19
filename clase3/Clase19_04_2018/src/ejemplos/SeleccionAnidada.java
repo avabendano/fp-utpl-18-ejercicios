@@ -26,7 +26,7 @@ public class SeleccionAnidada {
         System.out.println("Ingresa tu calificacion");
         calificacion = entrada.nextInt();
         
-        if (calificacion >= 50) {
+        if (calificacion >= 55) {
             System.out.printf("ESTUDIANTE %s\n\tAprobado\ncon califiación\n\t%d\n", nombre.toUpperCase(), calificacion);
         } else {
             System.out.printf("ESTUDIANTE %s\n\tReprobado\ncon califiación\n\t%d\n", nombre.toUpperCase(), calificacion);
