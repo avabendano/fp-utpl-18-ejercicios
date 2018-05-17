@@ -27,8 +27,8 @@ public class Ejercicio1 {
         System.out.println("Ingrese el nombre del cliente");
         nombre_cliente = entrada.nextLine();
 
-        factura = String.format("%20s\nsupermecado 'Todo a menor precio'\nnombre del cliente:%s\n\n", "factura",nombre_cliente);
-        factura = String.format("%s%-15s%-15s%-20s%-20s\n", factura,"articulo","cantidad","precio unitario","precio total");
+        factura = String.format("%20s\nsupermecado 'Todo a menor precio'\nnombre del cliente:%s\n\n", "factura", nombre_cliente);
+        factura = String.format("%s%-15s%-15s%-20s%-20s\n", factura, "articulo", "cantidad", "precio unitario", "precio total");
         while (bandera) {
             System.out.println("Ingresar el nombre del articulo");
             nombre_articulo = entrada.nextLine();
@@ -53,7 +53,7 @@ public class Ejercicio1 {
         iva = subtotal * 0.14;
         total = subtotal + iva;
 
-        factura = String.format("%s%30s%-20s%-20.2f\n%30s%-20s%-20.2f\n%30s%-20s%-20.2f\n", factura, " ","subtotal",subtotal, " ","iva 14%",iva, " ","total",total);
+        factura = String.format("%s%30s%-20s%-20.2f\n%30s%-20s%-20.2f\n%30s%-20s%-20.2f\n", factura, " ", "subtotal", subtotal, " ", "iva 14%", iva, " ", "total", total);
         System.out.println(factura);
     }
 
