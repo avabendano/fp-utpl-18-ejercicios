@@ -35,7 +35,7 @@ public class Ejercicio2 {
         System.out.println("Ingrese cuantos reportes quiere imprimir");
         numero_reporte = entrada.nextInt();
 
-        for (int a = 0; a <= numero_reporte; a++) {
+        for (int a = 1; a <= numero_reporte; a++) {
 
             entrada.nextLine();
             System.out.println("Ingrese el nombre del padre");
