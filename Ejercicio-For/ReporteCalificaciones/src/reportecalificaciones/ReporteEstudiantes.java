@@ -74,7 +74,7 @@ public class ReporteEstudiantes {
             promedio_global = promedio_global + promedio_estudiante;
             promedio_edad = promedio_edad + edad;
 
-            calificacion = String.format("%s%32s%-20s%-20.2f\n\n", calificacion, "", "Promedio", promedio_estudiante);
+            calificacion = String.format("%s%35s%-20s%-20.2f\n\n", calificacion, "", "Promedio", promedio_estudiante);
 
             if (promedio_estudiante < 13) {
                 resultado = "Regular";
